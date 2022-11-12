@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/swikriti04/MyPortfolio1/precache-manifest.dc7066879062702232f0888185b47b8b.js"
+  "/MyPortfolio1/precache-manifest.6157a6254e52578bf0422af0ddac9d5b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/swikriti04/MyPortfolio1/index.html", {
+workbox.routing.registerNavigationRoute("/MyPortfolio1/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
